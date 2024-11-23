@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông tin chi tiết</title>
+    <link rel="stylesheet" href="styleuc.css">
+</head>
+<style>
+    body {
+background: url('./images/du-hoc-uc.jpeg') no-repeat center center fixed;
+background-size: cover;
+margin: 0;
+font-family: Arial, sans-serif;
+color: #333;
+position: relative;
+}
+
+
+h1 {
+text-align: center;
+padding: 20px;
+color: #0cbd7c;
+}
+.container {
+display: flex;
+justify-content: center;
+gap: 20px;
+padding: 20px;
+}
+</style>
+<body>
+    </div>
+    <!-- Phần đầu trang: hình ảnh và tiêu đề -->
+    <div class="details-header">
+        <img id="detail-image" src="" alt="Hình trường đại học">
+        <h1 id="detail-title">Tên trường</h1>
+    </div>
+    <div class="toc">
+        <h3>Mục Lục</h3>
+        <ol>
+            <li><a href="#intro"> Giới thiệu sơ lược</a></li>
+            <li><a href="#location"> Vị trí</a></li>
+            <li><a href="#strengths"> Thế mạnh của trường</a></li>
+            <li><a href="#scholarships"> Các loại học bổng</a></li>
+        </ol>
+    </div>
+    <div class="content-section">
+        <p id="detail-title"></p>
+        <h2 id="intro">1. Giới thiệu sơ lược</h2>
+        <p id="detail-info"></p>
+
+        <h2 id="location">2. Vị trí</h2>
+        <p id="detail-location"></p>
+
+        <h2 id="strengths">3. Thế mạnh của trường</h2>
+        <p id="detail-strengths"></p>
+
+        <h2 id="scholarships">4. Các loại học bổng</h2>
+        <p id="detail-scholarships"></p>
+    </div>
+    <!-- Nút Quay Về Trang Chính -->
+    <div class="back-to-main">
+        <button onclick="goBack()">Quay về Trang Chính</button>
+    </div>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
+

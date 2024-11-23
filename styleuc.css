@@ -1,0 +1,312 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('./images/bieu-tuong-nuoc-uc-0.jpg') no-repeat center center fixed; /* Đường dẫn hình ảnh */
+    background-size: cover; /* Đặt kích thước hình nền phủ toàn màn hình */
+    color: #333;
+}
+
+.header-container {
+    max-width: 900px; /* Độ rộng tối đa */
+    margin: 20px auto; /* Canh giữa trên trang */
+    padding: 20px; /* Khoảng cách bên trong */
+    background: rgba(255, 255, 255, 0.8); /* Màu nền trắng mờ */
+    border: 2px solid #0056b3; /* Viền màu xanh đậm */
+    border-radius: 12px; /* Bo tròn các góc */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Hiệu ứng đổ bóng */
+    text-align: center; /* Canh giữa nội dung */
+}
+.title-container {
+    max-width: 900px; /* Độ rộng tối đa */
+    margin: 20px auto; /* Canh giữa */
+    padding: 20px; /* Khoảng cách bên trong */
+    background: rgba(255, 255, 255, 0.9); /* Nền trắng mờ */
+    border: 2px solid #0056b3; /* Viền màu xanh đậm */
+    border-radius: 12px; /* Bo góc mềm mại */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Đổ bóng */
+    text-align: center; /* Canh giữa nội dung */
+}
+.content img {
+    width: 100%;
+    max-width: 600px;
+    margin: 10px auto;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.content img:hover {
+    transform: scale(1.05); /* Phóng to nhẹ khi di chuột */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Đổ bóng khi di chuột */
+}
+.intro h2 {
+    color: #1b5da3; /* Màu xanh đậm */
+    font-size: 20px; /* Kích thước chữ */
+    margin-top: 20px; /* Khoảng cách trên */
+    margin-bottom: 10px; /* Khoảng cách dưới */
+}
+
+.intro p {
+    font-size: 16px; /* Kích thước chữ nội dung */
+    color: #333; /* Màu chữ nội dung */
+    line-height: 1.6; /* Khoảng cách dòng */
+    text-align: center; /* Căn chỉnh đều hai bên */
+    margin-bottom: 20px; /* Khoảng cách dưới giữa các đoạn */
+}
+/* Phần đầu trang: hình ảnh và tiêu đề */
+.card {
+    width: 250px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    border-radius: 12px; /* Bo góc mềm mại */
+    background: linear-gradient(135deg, #89cbfb 0%, #7ba1f4 100%); /* Gradient màu nền */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng */
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    background: radial-gradient(circle, #fbc2eb, #a194bf); /* Nền gradient mờ xung quanh hình */
+    padding: 5px; /* Khoảng cách giữa hình và nền */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card .title {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    margin-top: 10px;
+}
+.card:hover {
+    transform: scale(1.05); /* Phóng to nhẹ khi di chuột */
+    transition: transform 0.3s ease;
+}
+
+.card img:hover {
+    filter: brightness(1.2); /* Làm sáng hình khi di chuột */
+    transition: filter 0.3s ease;
+}
+/* Nội dung */
+.content {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    line-height: 1.6;
+    font-size: 16px;
+    border-radius: 10px;
+    color: #444;
+    text-align: justify;
+}
+/* Tiêu đề nội dung */
+.content h2 {
+    font-size: 28px;
+    color: #0f70d7; 
+    margin-top: 30px;
+}
+/* Nút Quay Về */
+.back-to-main {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.back-to-main button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.back-to-main button:hover {
+    background-color: #2980b9;
+}
+.content-section {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9); /* Màu nền trắng mờ */
+    border: 2px solid #0056b3; /* Viền màu xanh đậm */
+    border-radius: 12px; /* Bo góc mềm mại */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Đổ bóng */
+}
+/* Hình ảnh */
+img {
+    max-width: 80%; /* Giới hạn hình ảnh chiếm 80% chiều rộng trang */
+    height: auto; /* Duy trì tỷ lệ hình ảnh */
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Tạo hiệu ứng đổ bóng */
+}
+
+/* Mô tả chi tiết */
+.description {
+    text-align: left;
+    font-size: 18px;
+}
+/* Phần đầu trang */
+.details-header {
+    text-align: center;
+    margin-top: 50px;
+}
+.details-body {
+margin: 0;
+padding: 0;
+font-family: Arial, sans-serif;
+background: url('./images/viensydney.jpg') no-repeat center center fixed; /* Đường dẫn hình ảnh */
+background-size: cover; /* Đặt kích thước hình nền phủ toàn màn hình */
+color: #333;
+}
+
+.details-header img {
+    max-width: 600px;
+    width: 80%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.details-header h1 {
+    font-size: 32px;
+    color: #2b598a;
+}
+
+/* Mục lục */
+.toc {
+    position: fixed;
+    top: 150px;
+    left: 20px;
+    width: 180px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.toc h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #23279d;
+}
+
+.toc ol {
+    padding-left: 20px;
+}
+
+.toc ol li {
+    margin: 5px 0;
+}
+
+.toc ol li a {
+    text-decoration: none;
+    color: #319ee7;
+    font-size: 16px;
+}
+
+.toc ol li a:hover {
+    text-decoration: underline;
+}
+
+/* Nội dung */
+.content-section {
+    margin: 20px 250px 20px 240px;
+}
+
+.content-section h2 {
+    font-size: 28px;
+    color: #2e69a3;
+    margin-top: 30px;
+    border-bottom: none;
+    padding-bottom: 10px;
+}
+
+.content-section p {
+    font-size: 18px;
+    color: #232121;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.card .title {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #e2e1da;
+    text-decoration: none; /* Loại bỏ gạch dưới */
+}
+
+/* Giữa hình ảnh không có đường gạch */
+.card {
+    text-align: center;
+    margin: 20px auto; /* Căn giữa các mục */
+}
+
+/* Thêm chút không gian giữa hình ảnh */
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px; /* Khoảng cách giữa các hình ảnh */
+    margin: 40px auto;
+} 
+#title {
+    color:#2ecc71;
+}
+#intro {
+    color: #2ecc71; 
+}
+#location {
+    color: #2ecc71; 
+}
+#strengths {
+    color: #2ecc71; 
+}
+#scholarships {
+    color: #2ecc71; 
+}
+table1 {
+    border-collapse: collapse;
+    width: 100%; /* Chiều rộng bảng chiếm 100% */
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 15px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+caption {
+    font-weight: bold;
+    padding: 10px;
+}
+
